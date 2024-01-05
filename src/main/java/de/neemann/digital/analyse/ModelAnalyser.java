@@ -29,7 +29,7 @@ import java.util.List;
  */
 public class ModelAnalyser {
     private static final Logger LOGGER = LoggerFactory.getLogger(ModelAnalyser.class);
-    private static final int MAX_INPUTS_ALLOWED = 24;
+    private static final int MAX_INPUTS_ALLOWED = 250;
 
     private final Model model;
     private final ArrayList<Signal> inputs;
